@@ -1,10 +1,10 @@
 #######################################################################
-##  Filename: overfitting_sim.r
+##  Filename: boosting_sim.r
 ##  Purpose: Plots to demonstate how boosting works and CART fit
 ##  Uses data from: Randomly generated data 
 ##  Assumes packages: stringr, rpart
 ##  Output to: plots/boosting_sim.pdf; plots/cart_func.pdf.pdf
-##  Last Edited: 06 January 2016
+##  Last Edited: 07 January 2016
 ##  Christopher Boylan, Penn State University
 #######################################################################
 ## Load Packages and Prepare Directory

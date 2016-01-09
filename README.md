@@ -6,6 +6,6 @@ This repository contains code for the project 'Using Boosting to Predict Civil W
 ### Content
 `R/`: Contains code for models, simulations, and plots
 
-`data/': Contains dataset from Muchlinski et al. (2015)
+`data/`: Contains dataset from Muchlinski et al. (2015)
 
-`plots/': Contains figures
+`plots/`: Contains figures

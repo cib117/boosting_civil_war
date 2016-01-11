@@ -64,3 +64,14 @@ pd <- generatePartialPredictionData(fit, class.task, features,interaction=F)
 p <- plotPartialPrediction(pd) + theme_bw() + ylab('Probability of Civil War Onset')
 ## Save plot
 ggsave(paste0(dir, "plots/pdplot.pdf"), p, height = 6, width = 8)
+#######################################################################
+## Search for Interaction
+#######################################################################
+## Select predictors to plot
+features <- c('Agricultural_Exports', 'Illiteracy')
+## Generate pd data
+pd <- generatePartialPredictionData(fit, class.task, features,interaction=T) 
+## Generate pd plot
+p <- plotPartialPrediction(pd) + theme_bw() + ylab('Probability of Civil War Onset')
+## Save plot
+ggsave(paste0(dir, "plots/pdinteraction.pdf"), p, height = 6, width = 8)

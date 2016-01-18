@@ -9,3 +9,5 @@ This repository contains code for the project 'Using Boosting to Predict Civil W
 `data/`: Contains dataset from Muchlinski et al. (2015)
 
 `plots/`: Contains figures
+
+`slides/`: Contains slides for related QUASSI presentation
